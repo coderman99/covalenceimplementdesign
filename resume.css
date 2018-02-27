@@ -1,6 +1,13 @@
 body {
     background-color: gold;
     font-family: Playfair Display;
+    margin: none;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
 }
 
 .name {
@@ -15,18 +22,21 @@ body {
     border-left-width: 5px;
     border-right-width: 5px;
     padding: 20px;
+    font-size: 35px;
+    font-weight: 700;
 }
 
 ul {
-    float: right;
     display: inline;
     list-style-type: none;
     margin: 0;
     padding 0;
     overflow: hidden;
-    top: 75px;
-    left: 1200px;
+    top: 85px;
+    left: 1070px;
     position: absolute;
+    width: 500px;
+    font-size: 25px;
 }
 
 li {
@@ -40,13 +50,71 @@ li a {
     color: black;
 }
 
+.navbar-contact:hover {
+    text-decoration: underline rgb(179, 64, 64);
+}
+
+.navbar-about {
+    left: 133px;
+    color: black;
+}
+
+.navbar-about:hover {
+    text-decoration: underline rgb(179, 64, 64);
+    
+}
+
+.navbar-experience {
+    left: 240px;
+}
+
+.navbar-experience:hover {
+    text-decoration: underline rgb(179, 64, 64);
+}
+
+.navbar-work {
+    left: 399px;
+}
+
+.navbar-work:hover{
+    text-decoration: underline rgb(179, 64, 64);
+}
+
+.me {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+
+.container-info{
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    left: 800px;
+    top: 470px;
+}
+
+.title {
+    top: 50px;
+    position: absolute;
+    font-size: 57px;
+}
+
+.location {
+    font-size: 30px;
+    position: absolute;
+    top: 250px;
+}
+
 .box {
-    height: 800px;
-    width: 1300px;
+    height: 500px;
+    width: 1200px;
     position: absolute;
     background: white;
-    top: 250px;
-    left: 300px;
+    top: 900px;
+    left: 350px;
     border: solid rgb(179, 64, 64);
     border-bottom-width: 7px;
     border-top-width: 7px;
@@ -54,10 +122,227 @@ li a {
     border-right-width: 5px;
 }
 
-.me {
-    height: 400px;
-    width: 400px;
+.intro-block {
+    display: block;
     position: relative;
-    top: 300px;
-    left: 400px;
+    top: 75px;
+    left: 175px;
+}
+
+.intro-block-welcome {
+    font-size: 60px;
+}
+
+.intro-block-name {
+    font-size: 33px;
+}
+
+.intro-block-school {
+    font-size:  20px;
+}
+
+.intro-block-degree {
+    font-size: 17px;
+}
+
+.introduction {
+    position: relative;
+    border: solid black;
+    margin-left: 550px;
+    margin-top: -235px;
+    padding: 50px;
+    margin-right: 50px;
+}
+
+.introduction-par {
+    font-size: 20px;
+}
+
+.jobs {
+    border: black;
+    width: 1000px;
+    position: absolute;
+    top: 1500px;
+    left: 450px;
+}
+
+.jobs-mattressfirm {
+    width: 300px;
+    position: absolute;
+}
+
+.mfrm-link{
+    height: 40px;
+    position: absolute;
+    left: 260px;
+    top: 17px;
+}
+
+.jobs-winndixie {
+    position: absolute;
+    width: 300px;
+    left:  350px;
+}
+
+.winn-dixie-link {
+    height: 40px;
+    position: absolute;
+    left: 260px;
+    top: 17px;
+}
+
+.jobs-goodies {
+    width: 300px;
+    position: absolute;
+    left: 700px;
+}
+
+.goodies-link {
+    height: 40px;
+    position: absolute;
+    left: 260px;
+    top: 17px;
+}
+
+.website-imgs {
+    width: 1000px;
+    left: 510px;
+    top: 1900px;
+    height: 600px;
+    position: absolute;
+}
+
+.google-wrap-img {
+    position: absolute;
+    width: 300px;
+    height: 295px;
+    top: 0px;
+}
+
+.google-description {
+    position: absolute;
+    top: -16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(232, 237, 240, 0.72);
+    color: rgb(48, 46, 46);
+    visibility: hidden;
+    opacity: 0;
+    height: 295px;
+    width: 300px;
+    text-align: center;
+}
+
+.google-wrap-img:hover .google-description {
+    visibility: visible;
+    opacity: 1;
+}
+
+.google-span {
+    position: absolute;
+    font-size: 35px;
+    height: 70px;
+    width: 100px;
+    top: 85px;
+    left: 100px;
+}
+
+.google-img {
+    height: 295px;
+    width: 300px;
+}
+
+.espn-wrap-img {
+    width: 300px;
+    height: 295px;
+    position: absolute;
+    left: 310px;
+}
+
+.espn-img {
+    width: 300px;
+    height: 295px;
+}
+
+.espn-description {
+    position: absolute;
+    top: -16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(232, 237, 240, 0.72);
+    color: rgb(48, 46, 46);
+    visibility: hidden;
+    opacity: 0;
+    height: 295px;
+    width: 300px;
+    text-align: center;
+}
+
+.espn-wrap-img:hover .espn-description {
+    visibility: visible;
+    opacity: 1;
+}
+
+.espn-span {
+    position: absolute;
+    font-size: 35px;
+    height: 70px;
+    width: 100px;
+    top: 85px;
+    left: 100px;
+}
+
+.etrade-wrap-img {
+    position: absolute;
+    height: 295px;
+    width: 300px;
+    left: 620px;
+}
+
+.etrade-img {
+    height: 295px;
+    width: 300px;
+}
+
+
+
+.yahoo-wrap-img {
+    position: absolute;
+    height: 295px;
+    width: 300px;
+    top: 305px;
+}
+
+.yahoo-img {
+    height: 295px;
+    width: 300px;
+    top: 305px;
+}
+
+.reddit-wrap-img {
+    position: absolute;
+    height: 295px;
+    width: 300px;
+    top: 305px;
+    left: 310px;
+}
+
+.reddit-img {
+    height: 295px;
+    width: 300px;
+}
+
+.covalence-wrap-img {
+    position: absolute;
+    height: 295px;
+    width: 300px;
+    top: 305px;
+    left: 620px;
+}
+
+.covalence-img {
+    height: 295px;
+    width: 300px;
 }
