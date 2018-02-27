@@ -11,9 +11,8 @@ body {
 }
 
 .name {
-    float: left;
     display: inline;
-    top: 85px;
+    top: 75px;
     left: 300px;
     position: absolute;
     border: solid rgb(179, 64, 64);
@@ -24,6 +23,8 @@ body {
     padding: 20px;
     font-size: 35px;
     font-weight: 700;
+    height: 50px;
+    width: 207px;
 }
 
 ul {
@@ -48,6 +49,10 @@ li a {
     display: block;
     text-decoration: none;
     color: black;
+}
+
+.navbar-contact{
+    left: 0px
 }
 
 .navbar-contact:hover {
@@ -100,12 +105,14 @@ li a {
     top: 50px;
     position: absolute;
     font-size: 57px;
+    color: rgb(179, 64, 64);
 }
 
 .location {
     font-size: 30px;
     position: absolute;
     top: 250px;
+    color: rgb(179, 64, 64);
 }
 
 .box {
@@ -472,6 +479,7 @@ li a {
     top: 668px;
     left: 36px;
     font-size: 54px;
+    color: rgb(179, 64, 64)
 }
 
 .motivation-footer {
@@ -479,6 +487,7 @@ li a {
     top: 682px;
     left: 690px;
     font-size: 23px;
+    color: rgb(179, 64, 64);
 }
 
 .my-email {
@@ -486,6 +495,7 @@ li a {
     top: 719px;
     left: 695px;
     font-size: 16px;
+    color: rgb(179, 64, 64);
 }
 
 #name-form {
@@ -548,4 +558,22 @@ li a {
     background: rgba(232, 237, 240, 0.72);
     color: rgb(48, 46, 46);
     left: 1190px;
+}
+
+hr {
+    border-color: black;
+}
+
+.thankyou-footer {
+   position: absolute;
+   top: 3212px;
+   height: 123px;
+   width: 884px;
+   left: 523px;
+}
+
+.thankyou {
+    left: 310px;
+    font-size: 33px;
+    position: absolute;
 }
