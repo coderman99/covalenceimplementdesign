@@ -246,6 +246,7 @@ li a {
     width: 100px;
     top: 85px;
     left: 100px;
+    color: rgb(48, 46, 46);
 }
 
 .google-img {
@@ -292,6 +293,7 @@ li a {
     width: 100px;
     top: 85px;
     left: 100px;
+    color: rgb(48, 46, 46);
 }
 
 .etrade-wrap-img {
@@ -306,7 +308,35 @@ li a {
     width: 300px;
 }
 
+.etrade-description {
+    position: absolute;
+    top: -16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(232, 237, 240, 0.72);
+    color: rgb(48, 46, 46);
+    visibility: hidden;
+    opacity: 0;
+    height: 295px;
+    width: 300px;
+    text-align: center;
+}
 
+.etrade-wrap-img:hover .etrade-description {
+    visibility: visible;
+    opacity: 1;
+}
+
+.etrade-span {
+    position: absolute;
+    font-size: 35px;
+    height: 70px;
+    width: 100px;
+    top: 85px;
+    left: 100px;
+    color: rgb(48, 46, 46);
+}
 
 .yahoo-wrap-img {
     position: absolute;
@@ -319,6 +349,36 @@ li a {
     height: 295px;
     width: 300px;
     top: 305px;
+}
+
+.yahoo-description {
+    position: absolute;
+    top: -16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(232, 237, 240, 0.72);
+    color: rgb(48, 46, 46);
+    visibility: hidden;
+    opacity: 0;
+    height: 295px;
+    width: 300px;
+    text-align: center;
+}
+
+.yahoo-wrap-img:hover .yahoo-description {
+    visibility: visible;
+    opacity: 1;
+}
+
+.yahoo-span {
+    position: absolute;
+    font-size: 35px;
+    height: 70px;
+    width: 100px;
+    top: 85px;
+    left: 100px;
+    color: rgb(48, 46, 46);
 }
 
 .reddit-wrap-img {
@@ -334,6 +394,36 @@ li a {
     width: 300px;
 }
 
+.reddit-description {
+    position: absolute;
+    top: -16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(232, 237, 240, 0.72);
+    color: rgb(48, 46, 46);
+    visibility: hidden;
+    opacity: 0;
+    height: 295px;
+    width: 300px;
+    text-align: center;
+}
+
+.reddit-wrap-img:hover .reddit-description {
+    visibility: visible;
+    opacity: 1;
+}
+
+.reddit-span {
+    position: absolute;
+    font-size: 35px;
+    height: 70px;
+    width: 100px;
+    top: 85px;
+    left: 100px;
+    color: rgb(48, 46, 46);
+}
+
 .covalence-wrap-img {
     position: absolute;
     height: 295px;
@@ -345,4 +435,117 @@ li a {
 .covalence-img {
     height: 295px;
     width: 300px;
+}
+
+.covalence-description {
+    position: absolute;
+    top: -16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(232, 237, 240, 0.72);
+    color: rgb(48, 46, 46);
+    visibility: hidden;
+    opacity: 0;
+    height: 295px;
+    width: 300px;
+    text-align: center;
+}
+
+.covalence-wrap-img:hover .covalence-description {
+    visibility: visible;
+    opacity: 1;
+}
+
+.covalence-span {
+    position: absolute;
+    font-size: 35px;
+    height: 70px;
+    width: 100px;
+    top: 85px;
+    left: 100px;
+    color: rgb(48, 46, 46);
+}
+
+.contact-me-footer {
+    position: absolute;
+    top: 668px;
+    left: 36px;
+    font-size: 54px;
+}
+
+.motivation-footer {
+    position: absolute;
+    top: 682px;
+    left: 690px;
+    font-size: 23px;
+}
+
+.my-email {
+    position: absolute;
+    top: 719px;
+    left: 695px;
+    font-size: 16px;
+}
+
+#name-form {
+    top: 2746px;
+    left: 566px;
+    position: absolute;
+    width: 800px;
+    height: 40px;
+    font-family: Playfair Display;
+    font-size: 20px;
+
+}
+
+#email-form {
+    top: 2800px;
+    left: 566px;
+    position: absolute;
+    width: 800px;
+    height: 40px;
+    font-family: Playfair Display;
+    font-size: 20px;
+}
+
+#message-form {
+    top: 2854px;
+    left: 566px;
+    position: absolute;
+    width: 800px;
+    height: 240px;
+    font-family: Playfair Display;
+    font-size: 20px;
+}
+
+#name-form::-webkit-input-placeholder {
+    font-family: Playfair Display;
+    font-size: 20px;
+    text-align: left;
+}
+
+#email-form::-webkit-input-placeholder {
+    font-family: Playfair Display;
+    font-size: 20px;
+    text-align: left;
+}
+
+#message-form::-webkit-input-placeholder {
+    font-family: Playfair Display;
+    font-size: 20px;
+    position: absolute; top: 0; left: 0;
+    position: 0 0;
+}
+
+#submit {
+    position: absolute;
+    top: 3131px;
+    height: 40px;
+    width: 137px;
+    font-family: Playfair Display;
+    font-size: 25px;
+    background: rgba(232, 237, 240, 0.72);
+    color: rgb(48, 46, 46);
+    left: 1190px;
 }
