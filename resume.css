@@ -6,6 +6,8 @@ body {
     margin: none;
 }
 
+
+
 #wrapper {
     margin-left: auto;
     margin-right: auto;
@@ -70,7 +72,7 @@ body {
     border-bottom-width: 7px;
     border-top-width: 7px;
     border-left-width: 5px;
-    border-right-width: 5px;
+    border-right-width: ;
 }
 
 
@@ -79,8 +81,8 @@ body {
     border: solid rgb(179, 64, 64);
     border-bottom-width: 7px;
     border-top-width: 7px;
-    border-left-width: 5px;
-    border-right-width: 5px;
+    border-left-width: ;
+    border-right-width: ;
 }
 
 
@@ -89,7 +91,7 @@ body {
     border: solid rgb(179, 64, 64);
     border-bottom-width: 7px;
     border-top-width: 7px;
-    border-left-width: 5px;
+    border-left-width: ;
     border-right-width: 5px;
 }
 
@@ -183,105 +185,24 @@ body {
   }
 
 .contact-me-footer {
-    position: absolute;
-    top: 668px;
-    left: 36px;
-    font-size: 54px;
+    font-size: 70px;
     color: rgb(179, 64, 64)
 }
 
 .motivation-footer {
-    position: absolute;
-    top: 682px;
-    left: 690px;
-    font-size: 23px;
+    font-size: 38px;
     color: rgb(179, 64, 64);
 }
 
 .my-email {
-    position: absolute;
-    top: 719px;
-    left: 695px;
-    font-size: 16px;
+    font-size: 21px;
     color: rgb(179, 64, 64);
 }
 
-#name-form {
-    top: 2746px;
-    left: 566px;
-    position: absolute;
-    width: 800px;
-    height: 40px;
-    font-family: Playfair Display;
-    font-size: 20px;
 
-}
-
-#email-form {
-    top: 2800px;
-    left: 566px;
-    position: absolute;
-    width: 800px;
-    height: 40px;
-    font-family: Playfair Display;
-    font-size: 20px;
-}
-
-#message-form {
-    top: 2854px;
-    left: 566px;
-    position: absolute;
-    width: 800px;
-    height: 240px;
-    font-family: Playfair Display;
-    font-size: 20px;
-}
-
-#name-form::-webkit-input-placeholder {
-    font-family: Playfair Display;
-    font-size: 20px;
-    text-align: left;
-}
-
-#email-form::-webkit-input-placeholder {
-    font-family: Playfair Display;
-    font-size: 20px;
-    text-align: left;
-}
-
-#message-form::-webkit-input-placeholder {
-    font-family: Playfair Display;
-    font-size: 20px;
-    position: absolute; top: 0; left: 0;
-    position: 0 0;
-}
-
-#submit {
-    position: absolute;
-    top: 3131px;
-    height: 40px;
-    width: 137px;
-    font-family: Playfair Display;
-    font-size: 25px;
-    background: rgba(232, 237, 240, 0.72);
-    color: rgb(48, 46, 46);
-    left: 1190px;
-}
 
 hr {
     border-color: black;
 }
 
-.thankyou-footer {
-   position: absolute;
-   top: 3212px;
-   height: 123px;
-   width: 884px;
-   left: 523px;
-}
 
-.thankyou {
-    left: 310px;
-    font-size: 33px;
-    position: absolute;
-}
